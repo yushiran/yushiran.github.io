@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>yushiran&#39;s note</title>
+    <link>http://example.com/</link>
+    
+    <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Thu, 25 Mar 2021 02:19:50 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>first post</title>
+      <link>http://example.com/2021/03/24/text/</link>
+      <guid>http://example.com/2021/03/24/text/</guid>
+      <pubDate>Wed, 24 Mar 2021 07:31:15 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;text&lt;/p&gt;
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>text</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2021/03/24/text/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
