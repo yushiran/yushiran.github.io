@@ -9,31 +9,8 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 26 Mar 2021 10:21:16 GMT</pubDate>
+    <pubDate>Fri, 26 Mar 2021 10:20:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>3</title>
-      <link>http://example.com/2021/03/26/3/</link>
-      <guid>http://example.com/2021/03/26/3/</guid>
-      <pubDate>Fri, 26 Mar 2021 10:20:22 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;&lt;img src=&quot;3/1.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
-</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p><img src="3/1.png" alt="1"></p>]]></content:encoded>
-      
-      
-      
-      
-      <comments>http://example.com/2021/03/26/3/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>2</title>
@@ -45,14 +22,13 @@
         
       <description>&lt;p&gt;一、一个方程的情形&lt;/p&gt;
 &lt;p&gt;1.F(x,y)=0&lt;/p&gt;
-&lt;p&gt;  隐函数存在定理 1 设函数F(x, y)在点P(x0,y0)的某一邻域内具有连续的偏导数（条件1），且 &lt;/p&gt;
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;
-F(x0</description>
+&lt;p&gt;  隐函数存在定理 1 设函数F(x, y)在点P(x0,y0)的某一邻域内具有连续的偏导数（条件1），且&lt;br&gt;$$&lt;br&gt;F(x0,y0)=0&lt;br&gt;$$&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;F_{y}^{‘}</description>
         
       
       
       
-      <content:encoded><![CDATA[<p>一、一个方程的情形</p><p>1.F(x,y)=0</p><p>  隐函数存在定理 1 设函数F(x, y)在点P(x0,y0)的某一邻域内具有连续的偏导数（条件1），且 </p><script type="math/tex; mode=display">F(x0,y0)=0</script><script type="math/tex; mode=display">F_{y}^{'} (x0,y0)\ne0</script><p>（条件2）则方程F(x, y) = 0在点 ( , ) 0 0 P x y 的<br>某一邻域内恒能唯一确定一个单值连续且具有连续导数的函数y = f (x)，它满足条件 ,并有</p><script type="math/tex; mode=display">\frac{dy}{dx}=-\frac{F_{x}^{'}}{F_{y}^{'} }</script><p>​           <em>以上同时为隐函数的求导公式为</em></p><ol><li><p>F(x, y, z) = 0</p><p>隐函数存在定理 2 设函数F(x, y, z)在点 P(x0,y,z0)某一领域内有连续的偏导数（条件1），且F(x0,y,z0)=0，</p><script type="math/tex; mode=display">F_{z}^{’}（x0,y0,z0)\ne 0</script><p>（条件2）则方程F(x, y,z)=0在点P(x0,y0,z0)的某一领域内恒有唯一确定一个单值连续且具有连续偏导数的函数z=f（x,y),它满足条件z0=f（x0，y0），并有</p><script type="math/tex; mode=display">\frac{\partial z }{\partial  x}=-\frac{F_{x}^{'} }{F_{z}^{'} }</script><script type="math/tex; mode=display">\frac{\partial z }{\partial  y}=-\frac{F_{y}^{'} }{F_{z}^{'} }</script><p>对于求二次偏导，可以使用两种该方法：1、等式两边同时求偏导，利用类似一元隐函数的隐函数求导。</p><p>2、利用上文展示的求导公式。</p><p><strong>warning</strong></p><p><em>在解法一中，我们在对x和y求偏导时，仍要将他们看作是z的自变量，亦指将z看作是（x，y）的二元函数；</em></p><p><em>在解法二中，我们求F（x,y,z)的三个偏导数时要注意，要将xyz看作独立的自变量。</em></p></li></ol><p>​       3、对于一些式子还可以对于等式两边取微分。</p><p>二、方程组的情形</p><script type="math/tex; mode=display">\left\{\begin{matrix}   F(x,y,u,v)=0 \\    G(x,y,u,v)=0\end{matrix}\right.</script><p>隐函数存在定理3 设F(x, y,u,v)、G(x, y,u,v)在<br>点P（x0,y0,u0,v0)的某一领域内有对各个变量的连续偏导数（条件1，//可见连续偏导是最高级条件），且F（x0,y0,u0,v0)=0，G（x0,y0,u0,v0)=0,（条件2）且偏导数所组成的函数行列式（<strong>雅可比式</strong>）</p><script type="math/tex; mode=display">J=\frac{\partial (F,G)}{\partial (u,v)}=\begin{vmatrix}  \frac{\partial F}{\partial u}&\frac{\partial F}{\partial v} \\  \frac{\partial G}{\partial u}&\frac{\partial G}{\partial v}\end{vmatrix}</script><p>在P点函数值不等于零（条件3），则方程组在P 的某一领域内恒有唯一确定一组单值连续且具有连续偏导数的函数u=u(x,y),v=v(x,y),且将P点带入，函数成立（条件4//与条件2类似，指符合P点要求）。</p><p>​    对于偏导数的求值，应当采用推导证明法。</p><p>例：</p><script type="math/tex; mode=display">\left\{\begin{matrix}   F(x,y,u,v)=0 \\    G(x,y,u,v)=0\end{matrix}\right.</script><p>有隐函数组：</p><script type="math/tex; mode=display">\left\{\begin{matrix}   v=v(x,y) \\    u=u(x,y)\end{matrix}\right.</script><p>则：</p><script type="math/tex; mode=display">\left\{\begin{matrix}   F(x,y,u(x,y),v(x,y))\equiv 0\\    G(x,y,u(x,y),v(x,y))\equiv 0\end{matrix}\right.</script><p>两边对于x求导</p><script type="math/tex; mode=display">\left\{\begin{matrix}   F_{x}+F_{u}\cdot \frac{\partial u}{\partial x}+F_{v}\cdot \frac{\partial v}{\partial x}=0     \\    G_{x}+G_{u}\cdot \frac{\partial u}{\partial x}+G_{v}\cdot \frac{\partial v}{\partial x}=0\end{matrix}\right.</script><p>这是</p><script type="math/tex; mode=display">\frac{\partial v}{\partial x}，\frac{\partial v}{\partial x}</script><p>的线性方程组，对于这个线性方程组运用克拉默法则，求解。</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>一、一个方程的情形</p><p>1.F(x,y)=0</p><p>  隐函数存在定理 1 设函数F(x, y)在点P(x0,y0)的某一邻域内具有连续的偏导数（条件1），且<br>$$<br>F(x0,y0)=0<br>$$</p><p>$$<br>F_{y}^{‘} (x0,y0)\ne0<br>$$</p><p>（条件2）则方程F(x, y) = 0在点 ( , ) 0 0 P x y 的<br>某一邻域内恒能唯一确定一个单值连续且具有连续导数的函数y = f (x)，它满足条件 ,并有<br>$$<br>\frac{dy}{dx}=-\frac{F_{x}^{‘}}{F_{y}^{‘} }<br>$$<br>​           <em>以上同时为隐函数的求导公式为</em></p><ol start="2"><li><p>F(x, y, z) = 0</p><p>隐函数存在定理 2 设函数F(x, y, z)在点 P(x0,y,z0)某一领域内有连续的偏导数（条件1），且F(x0,y,z0)=0，<br>$$<br>F_{z}^{’}（x0,y0,z0)\ne 0<br>$$<br>（条件2）则方程F(x, y,z)=0在点P(x0,y0,z0)的某一领域内恒有唯一确定一个单值连续且具有连续偏导数的函数z=f（x,y),它满足条件z0=f（x0，y0），并有<br>$$<br>\frac{\partial z }{\partial  x}=-\frac{F_{x}^{‘} }{F_{z}^{‘} }<br>$$</p><p>$$<br>\frac{\partial z }{\partial  y}=-\frac{F_{y}^{‘} }{F_{z}^{‘} }<br>$$</p><p>对于求二次偏导，可以使用两种该方法：1、等式两边同时求偏导，利用类似一元隐函数的隐函数求导。</p><p>2、利用上文展示的求导公式。</p><p><strong>warning</strong></p><p><em>在解法一中，我们在对x和y求偏导时，仍要将他们看作是z的自变量，亦指将z看作是（x，y）的二元函数；</em></p><p><em>在解法二中，我们求F（x,y,z)的三个偏导数时要注意，要将xyz看作独立的自变量。</em></p></li></ol><p>​       3、对于一些式子还可以对于等式两边取微分。</p><p>二、方程组的情形<br>$$<br>\left{\begin{matrix}<br>  F(x,y,u,v)=0 \<br>  G(x,y,u,v)=0<br>\end{matrix}\right.<br>$$<br>隐函数存在定理3 设F(x, y,u,v)、G(x, y,u,v)在<br>点P（x0,y0,u0,v0)的某一领域内有对各个变量的连续偏导数（条件1，//可见连续偏导是最高级条件），且F（x0,y0,u0,v0)=0，G（x0,y0,u0,v0)=0,（条件2）且偏导数所组成的函数行列式（<strong>雅可比式</strong>）<br>$$<br>J=\frac{\partial (F,G)}{\partial (u,v)}=\begin{vmatrix}<br>  \frac{\partial F}{\partial u}&amp;\frac{\partial F}{\partial v} \<br>  \frac{\partial G}{\partial u}&amp;\frac{\partial G}{\partial v}<br>\end{vmatrix}<br>$$<br>在P点函数值不等于零（条件3），则方程组在P 的某一领域内恒有唯一确定一组单值连续且具有连续偏导数的函数u=u(x,y),v=v(x,y),且将P点带入，函数成立（条件4//与条件2类似，指符合P点要求）。</p><p>​    对于偏导数的求值，应当采用推导证明法。</p><p>例：<br>$$<br>\left{\begin{matrix}<br>  F(x,y,u,v)=0 \<br>  G(x,y,u,v)=0<br>\end{matrix}\right.<br>$$<br>有隐函数组：<br>$$<br>\left{\begin{matrix}<br>  v=v(x,y) \<br>  u=u(x,y)<br>\end{matrix}\right.<br>$$<br>则：<br>$$<br>\left{\begin{matrix}<br>  F(x,y,u(x,y),v(x,y))\equiv 0\<br>  G(x,y,u(x,y),v(x,y))\equiv 0<br>\end{matrix}\right.<br>$$<br>两边对于x求导<br>$$<br>\left{\begin{matrix}<br>  F_{x}+F_{u}\cdot \frac{\partial u}{\partial x}+F_{v}\cdot \frac{\partial v}{\partial x}=0     \<br>  G_{x}+G_{u}\cdot \frac{\partial u}{\partial x}+G_{v}\cdot \frac{\partial v}{\partial x}=0<br>\end{matrix}\right.<br>$$<br>这是<br>$$<br>\frac{\partial v}{\partial x}，\frac{\partial v}{\partial x}<br>$$<br>的线性方程组，对于这个线性方程组运用克拉默法则，求解。</p>]]></content:encoded>
       
       
       
