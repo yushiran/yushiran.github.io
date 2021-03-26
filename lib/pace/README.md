@@ -6,34 +6,47 @@
 
 <h2 align="center">Step 1 &rarr; Go to NexT dir</h2>
 
-<p>Change dir to <strong>NexT</strong> directory. There must be <code>layout</code>, <code>source</code>, <code>languages</code> and other directories:</p>
-<pre><code class="lang-sh">$ cd themes/next
+Change dir to **NexT** directory. There must be `layout`, `source`, `languages` and other directories:
+
+```sh
+$ cd themes/next
 $ ls
 _config.yml  crowdin.yml  docs  gulpfile.js  languages  layout  LICENSE.md  package.json  README.md  scripts  source
-</code></pre>
+```
+
 <h2 align="center">Step 2 &rarr; Get module</h2>
 
-<p>Install module to <code>source/lib</code> directory:</p>
-<pre><code class="lang-sh">$ git clone https://github.com/theme-next/theme-next-pace source/lib/pace
-</code></pre>
+Install module to `source/lib` directory:
+
+```sh
+$ git clone https://github.com/theme-next/theme-next-pace source/lib/pace
+```
+
 <h2 align="center">Step 3 &rarr; Set it up</h2>
 
-<p>Enable module in <strong>NexT</strong> <code>_config.yml</code> file and select your theme:</p>
-<pre><code class="lang-yml">pace:
+Enable module in **NexT** `_config.yml` file and select your theme:
+
+```yml
+pace:
   enable: true
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
   theme: minimal
-</code></pre>
-<p><strong>And, if you wants to use the CDN, then need to set:</strong> (you also need to find your corresponding theme css link in <a href="https://www.jsdelivr.com/package/npm/pace-js?path=themes">jsdelivr</a>)</p>
-<pre><code class="lang-yml">vendors:
+```
+
+**And, if you wants to use the CDN, then need to set:** (you also need to find your corresponding theme css link in <a href="https://www.jsdelivr.com/package/npm/pace-js?path=themes">jsdelivr</a>)
+
+```yml
+vendors:
   ...
   pace: //cdn.jsdelivr.net/npm/pace-js@1/pace.min.js
   pace_css: //cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css
-</code></pre>
+```
+
 <h1 align="center">Update</h1>
 
-<pre><code class="lang-sh">$ cd themes/next/source/lib/pace
+```sh
+$ cd themes/next/source/lib/pace
 $ git pull
-</code></pre>
+```
