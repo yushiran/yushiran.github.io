@@ -4,61 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shiran Yu's Portfolio</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- 引入 Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 自定义 CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 <body>
-    <header>
+    <!-- Header -->
+    <header class="bg-dark text-white text-center py-5">
         <div class="container">
-            <img src="assets/img/profile.jpg" alt="Shiran Yu" class="profile-img">
-            <h1>Shiran Yu</h1>
-            <p>MSc Student in Integrated Machine Learning Systems</p>
+            <img src="assets/img/profile.jpg" alt="Shiran Yu" class="rounded-circle mb-3" width="120">
+            <h1 class="display-5">Shiran Yu</h1>
+            <p class="lead">MSc Student in Integrated Machine Learning Systems</p>
+            <a href="mailto:yushiranyushiran@outlook.com" class="btn btn-outline-light btn-sm">Contact Me</a>
         </div>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I'm a passionate researcher specializing in medical image analysis, generative models, and reliable AI systems. Currently pursuing my MSc at UCL.</p>
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- About Section -->
+        <section id="about" class="mb-5">
+            <h2 class="text-primary">About Me</h2>
+            <p>I am a passionate researcher specializing in <strong>Medical Image Analysis</strong>, <strong>Generative Models</strong>, and <strong>Reliable AI Systems</strong>. Currently, I am pursuing my MSc at <strong>UCL</strong>, focusing on advanced AI technologies and their applications in healthcare.</p>
         </section>
 
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li>
+        <!-- Education Section -->
+        <section id="education" class="mb-5">
+            <h2 class="text-primary">Education</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
                     <strong>University College London (UCL)</strong>  
-                    MSc in Integrated Machine Learning Systems (2024 – Present)
+                    <br>MSc in Integrated Machine Learning Systems (2024 – Present)
                 </li>
-                <li>
+                <li class="list-group-item">
                     <strong>Beijing Institute of Technology</strong>  
-                    BS in Automation (Control Theory) (2020 – 2024)
+                    <br>BS in Automation (Control Theory) (2020 – 2024)
+                    <br><small>GPA: 87.8/100</small>
                 </li>
             </ul>
         </section>
 
-        <section id="research">
-            <h2>Research Experience</h2>
+        <!-- Research Experience -->
+        <section id="research" class="mb-5">
+            <h2 class="text-primary">Research Experience</h2>
             <ul>
                 <li>
                     <strong>Reconstructing MRI Using NIRS with Generative Models</strong>  
-                    Designed a Latent Diffusion Model to reconstruct high-resolution MRI images from near-infrared spectroscopy (NIRS) data.
+                    <p>Developed a Latent Diffusion Model to reconstruct high-resolution MRI images from NIRS data.</p>
                 </li>
                 <li>
                     <strong>Electric Vehicle Self-parking System</strong>  
-                    Developed a control system using PID and fuzzy control algorithms.
+                    <p>Designed a control system using PID and fuzzy control algorithms.</p>
                 </li>
             </ul>
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
+        <!-- Honors Section -->
+        <section id="honors" class="mb-5">
+            <h2 class="text-primary">Honors and Awards</h2>
+            <ul class="list-group">
+                <li class="list-group-item">First Prize: Beijing Institute of Technology Scholarship (2024)</li>
+                <li class="list-group-item">Second Prize: Smart Car Race (2022)</li>
+                <li class="list-group-item">Outstanding Student: Beijing Institute of Technology (2022)</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-5">
+            <h2 class="text-primary">Contact</h2>
             <p>Email: <a href="mailto:yushiranyushiran@outlook.com">yushiranyushiran@outlook.com</a></p>
-            <p>GitHub: <a href="https://github.com/yushiran">yushiran</a></p>
+            <p>GitHub: <a href="https://github.com/yushiran">https://github.com/yushiran</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/shiran-yu-0647b4330/">Shiran Yu</a></p>
         </section>
     </main>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Shiran Yu. All Rights Reserved.</p>
     </footer>
+
+    <!-- 引入 Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
