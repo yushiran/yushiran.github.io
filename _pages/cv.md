@@ -59,8 +59,8 @@ redirect_from:
 ## Awards and Achievements  
 
 - **Outstanding Undergraduate Thesis** (2024) - Beijing Institute of Technology  
-- **National Scholarship** (2023) - Ministry of Education, China  
-- **First Prize, National Undergraduate Innovation Contest** (2022)  
+- **First Prize in Beijing Institute of Technology Scholarship** (2023) - Beijing Institute of Technology  
+- **Outstanding student of the university** (2022)  
 
 ---
 
