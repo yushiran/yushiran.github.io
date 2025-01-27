@@ -23,7 +23,7 @@ repository               : "yushiran/yushiran.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "./images/person_pic.jpg"
+  avatar           : "person_pic.jpg"
   name             : "Shiran Yu"
   pronouns         : # example: "she/her"  
   bio              : "🎓 MSc Student in Integrated Machine Learning Systems at UCL
