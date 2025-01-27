@@ -11,9 +11,7 @@ locale                   : "en-US"
 title                    : "Shiran Yu Blog"
 title_separator          : "-"
 name                     : &name "Shiran Yu"
-description              : &description " 🎓 MSc Student in Integrated Machine Learning Systems at UCL
-                                          🔍 Research Interests: Medical Image Analysis, Generative Models, and Reliable AI Systems
-                                          💡 Passionate about AI-Generated Content (AIGC) and its applications in healthcare."
+description              : &description " 🎓 MSc Student in Integrated Machine Learning Systems at UCL"
 url                      : https://yushiran.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yushiran/yushiran.github.io"
@@ -26,9 +24,7 @@ author:
   avatar           : "person_pic.jpg"
   name             : "Shiran Yu"
   pronouns         : # example: "she/her"  
-  bio              : "🎓 MSc Student in Integrated Machine Learning Systems at UCL
-                      🔍 Research Interests: Medical Image Analysis, Generative Models, and Reliable AI Systems
-                      💡 Passionate about AI-Generated Content (AIGC) and its applications in healthcare."
+  bio              : "🎓 MSc Student in Integrated Machine Learning Systems at UCL"
   location         : "London, UK"
   employer         : "University College London"
   uri              : # URL
